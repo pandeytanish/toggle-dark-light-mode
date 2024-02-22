@@ -4,7 +4,7 @@ const Posts = () => {
   const {theme,handleOnClick} = useContext(ThemeContext);
   return (
     <div>
-        <h2>My theme {theme} </h2>
+        <h2>My theme is {theme} </h2>
         <button 
         className={ `btn ${theme === "dark" ? "btn-light" : "btn-dark"} border `} 
         onClick={handleOnClick}>
